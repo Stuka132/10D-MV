@@ -1,0 +1,17 @@
+document.addEventListener('keyup', onKeyUp)
+    const onKeyUp = (event) => {
+      switch (event.key) {
+        case 'ArrowUp':
+        case 'ArrowDown':
+          
+          break
+        case 'ArrowLeft':
+        case 'ArrowRight':
+          
+          break
+        default:
+          break
+      }
+    }
+
+        cameraHolder.rotation.x = 45;
